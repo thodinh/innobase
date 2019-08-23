@@ -1,0 +1,26 @@
+{
+  "name": "innobase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "INNORIA (devs@innoria.com)",
+  "dependencies": {
+    "async": "2.6.1",
+    "chalk": "2.4.1",
+    "daemon": "1.1.0",
+    "errno": "0.1.7",
+    "glob": "5.0.15",
+    "he": "1.1.1",
+    "lodash": "^4.17.14",
+    "mkdirp": "0.5.1",
+    "moo": "0.4.3",
+    "nearley": "2.11.0",
+    "porter-stemmer": "0.9.1",
+    "rimraf": "2.6.3",
+    "stream-meter": "^1.0.4",
+    "uncatch": "^1.0.0"
+  }
+}

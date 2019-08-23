@@ -1,0 +1,22 @@
+{
+	"MAIN": "main class config",
+	"debug_level": 9,
+	"debug": 1,
+	"echo": 1,
+	"log_dir": "logs",
+	"log_filename": "[component].log",
+	"log_columns": ["hires_epoch", "date", "hostname", "pid", "component", "category", "code", "msg", "data"],
+	"log_archive_path": "logs/archives/[yyyy]/[mm]/[dd]/[filename]-[yyyy]-[mm]-[dd].log.gz",
+	"log_crashes": true,
+	"log_async": false,
+	"foreground": true,
+	"color": false,
+	"gc_cli_args": [],
+	"inject_cli_args": [],
+	"config_overrides_file": false,
+	"uid": false,
+
+	"COMPONENT_CONFIG_SAME_NAME_WITH": {
+		"sub config": "here"
+	}
+}
